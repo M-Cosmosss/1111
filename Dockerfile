@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 
-COPY ./test /test
+COPY ./test /test111
 
-ENTRYPOINT /test
+ENTRYPOINT /test111
