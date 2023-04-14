@@ -1,11 +1,16 @@
 package main
 
 import (
-	"fmt"
+	"math/rand"
+	"os"
 	"time"
 )
 
 func main() {
-	fmt.Println("v13111111111111111111111111221111111111111")
-	time.Sleep(time.Minute * 30)
+	rand.Seed(time.Now().Unix())
+	i := rand.Intn(2)
+	if i == 0 {
+		os.Exit(-1)
+	}
+	return
 }
