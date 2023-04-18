@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("qaq123341")
+	fmt.Println("ee140")
 	time.Sleep(time.Minute * 30)
 }
