@@ -1,0 +1,6 @@
+services:
+  vote:
+    port: 5001
+
+  redis:
+    port: 6381
