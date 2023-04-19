@@ -3,4 +3,4 @@ services:
     port: 5001
 
   redis:
-    port: 6381
+    port: 6382
