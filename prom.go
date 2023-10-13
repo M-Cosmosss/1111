@@ -36,7 +36,7 @@ func main() {
 			return
 		}
 		c.JSON(code, gin.H{
-			"message": "hello world",
+			"message": "hello worldd",
 		})
 		return
 	})
